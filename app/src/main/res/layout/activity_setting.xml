@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="densowave.com.samplescanner.SettingActivity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="35dp" >
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text= "@string/_enableAustrailianPostal"
+                android:id="@+id/checkBox1"
+                android:layout_marginTop="43dp"
+                android:background="#dac9c9" />
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_enableAztec"
+                android:id="@+id/checkBox2"
+                android:layout_marginTop="10dp"
+                android:background="#dac9c9" />
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_enableCompositeCC_AB"
+                android:id="@+id/checkBox3"
+                android:layout_marginTop="10dp"
+                android:background="#dac9c9" />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_enableCompositeCC_C"
+                android:id="@+id/checkBox4"
+                android:layout_marginTop="10dp"
+                android:background="#dac9c9" />
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_enableCompositeTlc39"
+                android:id="@+id/checkBox5"
+                android:layout_marginTop="10dp"
+                android:background="#dac9c9" />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_enableCode11"
+                android:id="@+id/checkBox6"
+                android:layout_marginTop="10dp"
+                android:background="#dac9c9" />
+
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_enableCode39"
+                android:id="@+id/checkBox7"
+                android:layout_marginTop="10dp"
+                android:background="#dac9c9" />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_enableCode93"
+                android:id="@+id/checkBox8"
+                android:layout_marginTop="10dp"
+                android:background="#dac9c9" />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_enableCode128"
+                android:id="@+id/checkBox9"
+                android:layout_marginTop="10dp"
+                android:background="#dac9c9" />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_enableCodabar"
+                android:id="@+id/checkBox10"
+                android:layout_marginTop="10dp"
+                android:background="#dac9c9" />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_enableChinese2Of5"
+                android:id="@+id/checkBox11"
+                android:layout_marginTop="10dp"
+                android:background="#dac9c9" />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_enableDataMatrix"
+                android:id="@+id/checkBox12"
+                android:layout_marginTop="10dp"
+                android:background="#dac9c9" />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_enableDutchPostal"
+                android:id="@+id/checkBox13"
+                android:layout_marginTop="10dp"
+                android:background="#dac9c9" />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_enableEanJan8"
+                android:id="@+id/checkBox14"
+                android:layout_marginTop="10dp"
+                android:background="#dac9c9" />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_enableEanJan13"
+                android:id="@+id/checkBox15"
+                android:layout_marginTop="10dp"
+                android:background="#dac9c9" />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_enableGs1128"
+                android:id="@+id/checkBox16"
+                android:layout_marginTop="10dp"
+                android:background="#dac9c9" />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_enableGs1DataBar14"
+                android:id="@+id/checkBox17"
+                android:layout_marginTop="10dp"
+                android:background="#dac9c9" />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_enableGs1DataBarLimited"
+                android:id="@+id/checkBox18"
+                android:layout_marginTop="10dp"
+                android:background="#dac9c9" />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_enableGs1DataBarExpanded"
+                android:id="@+id/checkBox19"
+                android:layout_marginTop="10dp"
+                android:background="#dac9c9" />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_enableGs1DatabarToUpcEan"
+                android:id="@+id/checkBox20"
+                android:layout_marginTop="10dp"
+                android:background="#dac9c9" />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_enableIsbt128"
+                android:id="@+id/checkBox21"
+                android:layout_marginTop="10dp"
+                android:background="#dac9c9" />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_enableIndustrial2Of5"
+                android:id="@+id/checkBox22"
+                android:layout_marginTop="10dp"
+                android:background="#dac9c9" />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_enableInterleaved2Of5"
+                android:id="@+id/checkBox23"
+                android:layout_marginTop="10dp"
+                android:background="#dac9c9" />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_enableJapanPostal"
+                android:id="@+id/checkBox24"
+                android:layout_marginTop="10dp"
+                android:background="#dac9c9" />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_enableKorean3Of5"
+                android:id="@+id/checkBox25"
+                android:layout_marginTop="10dp"
+                android:background="#dac9c9" />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_enableMatrix2Of5"
+                android:id="@+id/checkBox26"
+                android:layout_marginTop="10dp"
+                android:background="#dac9c9" />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_enableMaxiCode"
+                android:id="@+id/checkBox27"
+                android:layout_marginTop="10dp"
+                android:background="#dac9c9" />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_enableMicroPDF417"
+                android:id="@+id/checkBox28"
+                android:layout_marginTop="10dp"
+                android:background="#dac9c9" />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_enableMicroQR"
+                android:id="@+id/checkBox29"
+                android:layout_marginTop="10dp"
+                android:background="#dac9c9" />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_enableMsi"
+                android:id="@+id/checkBox30"
+                android:layout_marginTop="10dp"
+                android:background="#dac9c9" />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_enablePDF417"
+                android:id="@+id/checkBox31"
+                android:layout_marginTop="10dp"
+                android:background="#dac9c9" />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_enableQRcode"
+                android:id="@+id/checkBox32"
+                android:layout_marginTop="10dp"
+                android:background="#dac9c9" />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_enableTriopticCode39"
+                android:id="@+id/checkBox33"
+                android:layout_marginTop="10dp"
+                android:background="#dac9c9" />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_enableUpcA"
+                android:id="@+id/checkBox34"
+                android:layout_marginTop="10dp"
+                android:background="#dac9c9" />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_enableUpcE"
+                android:id="@+id/checkBox35"
+                android:layout_marginTop="10dp"
+                android:background="#dac9c9" />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_enableUpcE1"
+                android:id="@+id/checkBox36"
+                android:layout_marginTop="10dp"
+                android:background="#dac9c9" />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_enableUccCoupon"
+                android:id="@+id/checkBox37"
+                android:layout_marginTop="10dp"
+                android:background="#dac9c9" />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_enableUKPostal"
+                android:id="@+id/checkBox38"
+                android:layout_marginTop="10dp"
+                android:background="#dac9c9" />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_enableUPUFICSPostal"
+                android:id="@+id/checkBox39"
+                android:layout_marginTop="10dp"
+                android:background="#dac9c9" />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_enableUSPostnet"
+                android:id="@+id/checkBox40"
+                android:layout_marginTop="10dp"
+                android:background="#dac9c9" />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_enableUSPlanet"
+                android:id="@+id/checkBox41"
+                android:layout_marginTop="10dp"
+                android:background="#dac9c9" />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_enableUSPSPostal"
+                android:id="@+id/checkBox42"
+                android:layout_marginTop="10dp"
+               android:background="#dac9c9" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
+

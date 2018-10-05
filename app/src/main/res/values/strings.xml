@@ -1,0 +1,62 @@
+<resources>
+    <!-- MAIN 画面のメッセージ -->
+    <string name="app_name">ScannerSample</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="BarData">BAR DATA</string>
+    <string name="BarType">BAR TYPE</string>
+    <string name="BarDigit">BAR DIGIT</string>
+    <string name="BarCount">READ COUNT</string>
+    <string name="EnableReader">ENABLE READER</string>
+    <string name="ButtonScan">SCAN</string>
+    <string name="Settings">SETTINGS</string>
+    <string name="ButtonScan2">HISTORY</string>
+    <string name="ButtonScan3">DEL</string>
+    <string name="ButtonScan5">送信</string>
+
+
+    <string name="_enableAustrailianPostal">AustrailianPostal</string>
+    <string name="_enableAztec">Aztec</string>
+    <string name="_enableCompositeCC_AB">CompositeCC_AB</string>
+    <string name="_enableCompositeCC_C">CompositeCC_C</string>
+    <string name="_enableCompositeTlc39">CompositeTlc39</string>
+    <string name="_enableCode11">Code11</string>
+    <string name="_enableCode39">Code39</string>
+    <string name="_enableCode93">Code93</string>
+    <string name="_enableCode128">Code128</string>
+    <string name="_enableCodabar">Codabar</string>
+    <string name="_enableChinese2Of5">Chinese2Of5</string>
+    <string name="_enableDataMatrix">DataMatrix</string>
+    <string name="_enableDutchPostal">DutchPostal</string>
+    <string name="_enableEanJan8">EanJan8</string>
+    <string name="_enableEanJan13">EanJan13</string>
+    <string name="_enableGs1128">Gs1128</string>
+    <string name="_enableGs1DataBar14">Gs1DataBar14</string>
+    <string name="_enableGs1DataBarLimited">Gs1DataBarLimited</string>
+    <string name="_enableGs1DataBarExpanded">Gs1DataBarExpanded</string>
+    <string name="_enableGs1DatabarToUpcEan">Gs1DatabarToUpcEan</string>
+    <string name="_enableIsbt128">Isbt128</string>
+    <string name="_enableIndustrial2Of5">Industrial2Of5</string>
+    <string name="_enableInterleaved2Of5">Interleaved2Of5</string>
+    <string name="_enableJapanPostal">JapanPostal</string>
+    <string name="_enableKorean3Of5">Korean3Of5</string>
+    <string name="_enableMatrix2Of5">Matrix2Of5</string>
+    <string name="_enableMaxiCode">MaxiCode</string>
+    <string name="_enableMicroPDF417">MicroPDF417</string>
+    <string name="_enableMicroQR">MicroQR</string>
+    <string name="_enableMsi">Msi</string>
+    <string name="_enablePDF417">PDF417</string>
+    <string name="_enableQRcode">QRcode</string>
+    <string name="_enableTriopticCode39">TriopticCode39</string>
+    <string name="_enableUpcA">UpcA</string>
+    <string name="_enableUpcE">UpcE</string>
+    <string name="_enableUpcE1">UpcE1</string>
+    <string name="_enableUccCoupon">UccCoupon</string>
+    <string name="_enableUKPostal">UKPostal</string>
+    <string name="_enableUPUFICSPostal">UPUFICSPostal</string>
+    <string name="_enableUSPostnet">USPostnet</string>
+    <string name="_enableUSPlanet">USPlanet</string>
+    <string name="_enableUSPSPostal">USPSPostal</string>
+
+
+</resources>
